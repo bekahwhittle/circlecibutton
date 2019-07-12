@@ -16,5 +16,5 @@ jobs:
           command: date
 
       - run:
-          name: Yarn Add Jest
-          command: yarn add --dev jest
+          name: Yarn Add
+          command: sudo port install yarn
