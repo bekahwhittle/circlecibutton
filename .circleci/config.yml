@@ -16,5 +16,5 @@ jobs:
           command: date
 
       - run:
-          name: Yarn Add
-          command: sudo port install yarn
+          name: NPM Add
+          command: 'sudo npm install -g npm@latest'
