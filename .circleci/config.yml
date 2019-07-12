@@ -16,5 +16,5 @@ jobs:
           command: date
 
       - run:
-          name: Sum Works
-          command: yarn test
+          name: Yarn Add Jest
+          command: yarn add --dev jest
