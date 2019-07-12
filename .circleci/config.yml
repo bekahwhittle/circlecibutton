@@ -16,6 +16,6 @@ jobs:
           command: date
 
       - run:
-          name: Yarn Add
-          command: 'curl -o- -L https://yarnpkg.com/install.sh | bash'
+          name: Npm Add
+          command: npm install
 
