@@ -1,3 +1,5 @@
 function texasTribute() {
-    document.getElementById("new-text").innerHTML = "Don't Mess With Texas. 👢";
+    document.getElementById("new-text").innerHTML = "Howdy there- Yeehaw!";
 }
+
+module.exports = texasTribute;
