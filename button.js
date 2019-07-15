@@ -7,7 +7,7 @@ function texasTribute() {
 
 // Simple addition function for npm test to run!
 function addition(a, b) {
-    return a + b;
+    return a - b;
 }
 
 module.exports = addition;
