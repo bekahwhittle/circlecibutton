@@ -24,3 +24,8 @@ jobs:
       - run:
           name: Greeting
           command: echo Hello, world.
+
+      - run:
+          name: Deploy Master to Heroku
+          command: |
+            git push https://heroku:de9a58b8-ede6-45e8-9f8b-a8fe14c2a83a@git.heroku.com/afternoon-lowlands-60297.git master
