@@ -23,7 +23,7 @@
 
 
 // Code to run sample mock test on addition expectation 👇🏼
-const addition = require('./button');
+const addition = require('.');
 
 test('adds 2 + 2 to equal 4', () => {
     
